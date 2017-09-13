@@ -67,7 +67,7 @@ namespace xamformsreactiveuistarter.ViewModels
             Login.ThrownExceptions
             .Subscribe(ex =>
             {
-                //Check for other exceptions as weel, now just showcasing the reactiveui exception handling 
+                //Check for other exceptions as well, now just showcasing the reactiveui exception handling 
                 StateMessage = "Please check your internet connection.";    
             });
 
